@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="cricket_score.js"></script>
+    <title>CricBuzz</title>
+    <link rel="stylesheet" href="design.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Albert+Sans:wght@300&family=Raleway&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container1">
+      <div class="container_header">
+        <h1>cricketDB</h1>
+      </div>
+      <div class="container_main">
+        <h3>Type:</h3>
+        <input type="text" id="matchType" />
+        <h3>Month:</h3>
+        <input
+          placeholder="type it in full capital letters"
+          type="text"
+          id="month"
+        />
+        <h3>year:</h3>
+        <input type="text" id="year" />
+        <h3>Team 1:</h3>
+        <input
+          placeholder="type it in title case"
+          type="text"
+          id="teamOneInput"
+        />
+        <h3>Team 2:</h3>
+        <input
+          placeholder="type it in title case"
+          type="text"
+          id="teamTwoInput"
+        />
+      </div>
+      <div class="container_button">
+        <button onclick="callApi()">Submit</button>
+      </div>
+    </div>
+    <div id="card_container">
+      <!-- <div class="container2">
+       <div class="card">
+          <h4>series name:</h4>
+          <h4>start date:</h4>
+  
+          <div class="container_button">
+            <button>View</button>
+          </div>
+        </div> -->
+    </div> 
+    
+    </div>
+  </body>
+</html>
